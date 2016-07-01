@@ -1,0 +1,137 @@
+
+
+.bg{
+	background-color: #f9f9f9;
+}
+
+.wrapper {
+	width: 1060px;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	-webkit-box-shadow: 5px 0px 5px 0px rgba(219,219,219,0.3), -5px 0px 5px 0px rgba(219,219,219,0.3);
+	-moz-box-shadow: 5px 0px 5px 0px rgba(219,219,219,0.3), -5px 0px 5px 0px rgba(219,219,219,0.3);
+	box-shadow: 5px 0px 5px 0px rgba(219,219,219,0.3), -5px 0px 5px 0px rgba(219,219,219,0.3); 
+}
+
+.header{
+	height: 170px;
+}
+
+.logo{
+	padding: 50px 0px 0px 50px;
+}
+
+.menu {
+	height: 40px;
+	margin: 35px 50px;
+	background: -webkit-linear-gradient(#444343,  #5e5e5e);
+    background: -o-linear-gradient(#444343, #5e5e5e);
+    background: -moz-linear-gradient(#444343, #5e5e5e);
+}
+
+ul.menu-list>li {
+	display: inline-block; 
+	padding: 13px 35px;
+	border-left: 1px solid transparent; 
+    border-right: 1px solid transparent;
+
+}
+
+#active {
+	background: #3a3a3a;
+    border-left: 1px solid #838383; 
+    border-right: 1px solid #838383;
+}
+
+ul.menu-list>li:hover {
+	background: #3a3a3a;
+    border-left: 1px solid #838383; 
+    border-right: 1px solid #838383;
+}
+
+.menu-list>li>a {
+	color: white;
+	text-decoration: none;
+}
+
+.left-menu{
+	margin: 40px 50px 0px 50px;
+	float:left;
+	}
+
+.left-menu li {
+	width: 240px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #c8c8c8;
+	border-bottom: none;
+	line-height: 40px;
+	white-space: nowrap;
+}
+
+.left-menu li:last-child {
+	border-bottom: 1px solid #c8c8c8;
+}
+
+
+.left-menu li:hover {
+	background: #f9f9f9;
+    color: #2c2c2c;
+    padding-left: 10px;
+}
+
+.left-menu a{
+	color: #656363;
+	text-decoration: none;
+	padding: 30px;
+}
+
+.content {
+	margin: 40px 10px 60px 0px ;
+	width: 670px;
+	float: left;
+}
+
+.bike  {
+	width: 670px;
+	height: 400px;
+	margin-bottom: 40px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+}
+
+.description {
+	padding:0 25px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.footer-menu {
+	clear: both;
+	height: 40px;
+	background: #e1e1e1;
+	margin: 60px 50px;
+}
+
+.footer-menu li {
+	display:inline-block;
+	float: left;
+	padding: 13px 25px;
+	}
+
+.footer-menu li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.rights {
+	padding: 13px 25px;
+	text-align: right;
+	color: #c8c8c8;
+}
